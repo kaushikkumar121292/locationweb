@@ -38,16 +38,18 @@ public class LocationRestController {
 		
 	}
 	
-	@GetMapping("/{id}")
-	public Location getLocation(@PathVariable("id") int id) {
-		
-		Session session = entityManager.unwrap(Session.class);
-		
-		
-		return session.get(Location.class, id);
-
-		
-	}
+	/*
+	 * @GetMapping("/{id}") public Location getLocation(@PathVariable("id") int id)
+	 * {
+	 * 
+	 * Session session = entityManager.unwrap(Session.class);
+	 * 
+	 * 
+	 * return session.get(Location.class, id);
+	 * 
+	 * 
+	 * }
+	 */
 	
 	@PostMapping
 	public Location createLoaction(@RequestBody Location location){
