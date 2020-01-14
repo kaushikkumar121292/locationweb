@@ -9,10 +9,12 @@
 		<version>2.1.3.RELEASE</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
+	
 	<groupId>com.bharath.location</groupId>
 	<artifactId>locationweb</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>locationweb</name>
+	<packaging>jar</packaging>
 	<description>Location Module</description>
 
 	<properties>
